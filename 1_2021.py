@@ -1,3 +1,4 @@
+# this is ONLY part 2 of day 1
 puzzel = open('2021day1.txt','r').read().splitlines()
 m = 0
 n = 0
@@ -9,6 +10,7 @@ count = 0
 run = False
 increses = 0
 while d < len(puzzel):
+    # this defines the variable and the previous variable
     m = (int(puzzel[a]) + int(puzzel[b]) + int(puzzel[c]))
     n = (int(puzzel[b]) + int(puzzel[c]) + int(puzzel[d]))
     if n > m:
