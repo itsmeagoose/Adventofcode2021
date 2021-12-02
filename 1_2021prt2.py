@@ -1,3 +1,5 @@
+#itsmeagoose
+#2021
 # this is ONLY part 2 of day 1
 puzzel = open('2021day1.txt','r').read().splitlines()
 m = 0
